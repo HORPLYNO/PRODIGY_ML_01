@@ -6,27 +6,45 @@ The goal is to **predict house prices** using the following features:
 - Square footage of the house
 - Number of bedrooms
 - Number of bathrooms
+## Data Preparation
 
-## 🏆 Model Performance
-The model was evaluated using common regression metrics:
-- **Mean Absolute Error (MAE)**: 165,005.83  
-- **Root Mean Squared Error (RMSE)**: 239,061.44  
-- **Mean Squared Error (MSE)**: 57,150,374,258.67  
-- **R-squared**: 0.5148
--
-- ## 📊 Dataset
-The dataset contains the following house features:
-- **Square footage**: The total area of the house in square feet.
-- **Number of bedrooms**: The total number of bedrooms in the house.
-- **Number of bathrooms**: The total number of bathrooms in the house.
-- **House price**: The target variable, representing the price of the house.
+Read the dataset using Pandas.
+
+Checked for missing values and duplicate rows.
+
+Verified data typeS
+
+Created a new dataset using only relevant features.
+
+##  Exploratory Data Analysis (EDA)
+
+Generated descriptive statistics to understand data distribution.
+
+Plotted scatter plots between sqft_living and price to visualize the relationship.
+
+Used box plots to detect outliers in sqft_living, bedrooms, and bathrooms.
+
+Calculated Pearson correlation coefficients to analyze relationships between features.
+
+Created a heatmap to visualize feature correlations.
+
+##  Model Training
+
+Split the dataset into training and testing sets using Scikit-learn.
+
+Implemented a Linear Regression model to predict house prices.
+
+Extracted model coefficients to interpret feature importance.
+
+##  Model Evaluation
+
+Used R-squared score to measure model accuracy.
+
+Calculated Mean Absolute Error (MAE), Mean Squared Error (MSE), and Root Mean Squared Error (RMSE).
+
+Compared predicted values with actual values using visual plots.
 
 ## 📝 Additional Information
 - The **Linear Regression** model was implemented using **Scikit-learn**.
 - The model performance suggests that **R-squared = 0.5148**, meaning the model explains about **51% of the variance** in house prices.
 - 
-## 📊 Knowledge Gained
-- This project enhanced my skills in **linear regression** and model evaluation techniques.
-- I gained insights into how **square footage**, **bedrooms**, and **bathrooms** influence house prices.
-- I developed a deeper understanding of evaluating model performance and identifying areas for improvement.
-
