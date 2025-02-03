@@ -12,7 +12,7 @@ Read the dataset using Pandas.
 
 Checked for missing values and duplicate rows.
 
-Verified data typeS
+Verified data types
 
 Created a new dataset using only relevant features.
 
