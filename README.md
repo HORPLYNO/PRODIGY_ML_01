@@ -45,6 +45,5 @@ Calculated Mean Absolute Error (MAE), Mean Squared Error (MSE), and Root Mean Sq
 Compared predicted values with actual values using visual plots.
 
 ## 📝 Additional Information
-- The **Linear Regression** model was implemented using **Scikit-learn**.
 - The model performance suggests that **R-squared = 0.5148**, meaning the model explains about **51% of the variance** in house prices.
 - 
